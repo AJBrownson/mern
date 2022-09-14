@@ -1,0 +1,50 @@
+body {
+  padding: 20px 50px;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #8d44ad5e;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.Flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Card {
+  width: 25%;
+  height: 25%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.Card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+
+.Container {
+  padding: 2px 16px;
+}
+
+.Button-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+a {
+  padding: 10px 15px;
+  cursor: pointer;
+  background-color: #6A279A;
+  border: transparent;
+  border-radius: 10px;
+  color: azure;
+  text-decoration: none;
+}
